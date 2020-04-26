@@ -14,7 +14,7 @@ def line_string(line)
   str = ""
   line.each_with_index do |name, index|
     count = index + 1
-    str += "#{count}. #{name}"
+    str += "#{count}. #{name} "
   end
-  str
+  str.strip
 end
