@@ -5,7 +5,7 @@ def line(deli)
   elsif deli.length > 0
     line = line_string(deli)
     # binding.pry
-    puts "The line is currently: "
+    puts "The line is currently:  "
 
   end
 end
