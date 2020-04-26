@@ -9,8 +9,6 @@ def line(deli)
   end
 end
 
-
-
 def line_string(line)
   str = ""
   line.each_with_index do |name, index|
