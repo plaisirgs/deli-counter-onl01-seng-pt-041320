@@ -6,9 +6,10 @@ def line(deli)
     line = line_string(deli)
     # binding.pry
     puts "The line is currently: #{line}"
-
   end
 end
+
+
 
 def line_string(line)
   str = ""
