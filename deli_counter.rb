@@ -4,7 +4,7 @@ def line(deli)
     puts "The line is currently empty."
   elsif deli.length > 0
     line = line_string(deli)
-    binding.pry
+    # binding.pry
     puts "The line is currently: "
 
   end
