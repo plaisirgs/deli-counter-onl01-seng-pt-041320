@@ -16,6 +16,7 @@ def line_string(line)
     str += "#{count}. #{name} "
   end
   str.strip
+end
 
 def take_a_number
 end
