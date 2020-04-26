@@ -15,4 +15,5 @@ def line_string(line)
   line.each do |name|
     str += name
   end
+  str
 end
