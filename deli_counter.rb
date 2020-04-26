@@ -8,3 +8,9 @@ def line(deli)
 
   end
 end
+
+def line_string(line)
+  str = ""
+  line.each do |name|
+end
+end
